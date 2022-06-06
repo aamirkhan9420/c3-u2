@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Purchases</title>
+    <style>
+        #voucher_list {
+            margin: auto;
+            height: auto;
+            width: 80%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(auto);
+            gap: 20px;
+        }
+        
+        img {
+            width: 100%;
+            height: 250px;
+        }
+    </style>
+</head>
+
+
+<!-- Wallet balence id:- "wallet_balance" (only number). -->
+<!-- - All the purchased voucher will be appended in div with id as "purchased_vouchers".
+  - The remaining balance will show on the page inside h3 tag with id as "balance" -->
+
+
+
+
+
+<body>
+    <div id="upper">
+
+    </div>
+    <!-- Wallet balence id:- "wallet_balance" (only number). -->
+    <!-- - The voucher card will have class :- "voucher".
+  - All the vouchers will be appended inside div with id "voucher_list".
+  - Buy button will have class:- "buy_voucher"
+  - All the purchased voucher will be stored with key :- "purchase". -->
+
+    <div id="voucher_list"></div>
+
+</body>
+
+</html>
+<!-- //API:- https://masai-vouchers-api.herokuapp.com/api/vouchers -->
+<!-- <script src="./voucher.js"></script>
+ -->
+<script src="./scripts/voucher.js"></script>
